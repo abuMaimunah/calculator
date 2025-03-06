@@ -7,33 +7,33 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: hsl(0, 0%, 95%);
+  background-color: #4F91A3;
 }
 button{
   width: 80px;
   height: 80px;
   border-radius: 50px;
   border: none;
-  background-color: hsl(0,0%,30%);
+  background-color: #FFB703;
   color: white;
   font-size:2.5rem;
   font-weight: bold;
   cursor: pointer;
 }
 button:hover{
-  background-color: hsl(0, 0%, 40%);
+  background-color: #FFD166;
 }
 button:active{
-  background-color: hsl(0, 0%, 50%);
+  background-color: #FFE4A1;
 }
 .operator{
-  background-color: hsl(35, 100%, 55%);
+  background-color: #FB8500;
 }
 .operator:hover{
-  background-color: hsl(35, 100%, 65%);
+  background-color: #FFA647;
 }
 .operator:active{
-  background-color: hsl(35, 100%, 75%);
+  background-color: #FFC48D;
 }
 #keys{
   display: grid;
@@ -43,7 +43,7 @@ button:active{
 }
 #calculator{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: hsl(0, 0%, 15%);
+  background-color: #023047;
   max-width: 450px;
   overflow: hidden;
   padding: 10px;
@@ -55,6 +55,6 @@ button:active{
   font-size: 5rem;
   text-align: left;
   color: white;
-  background-color: hsl(0, 0%, 20%);
+  background-color: #035F80;
   border: none;
 }
